@@ -4,7 +4,7 @@
       The Process of Making Coffee
     </h1>
     <div class="coffee-infographic">
-      <swiper @swiper="onSwiper" @slide-change="onSlideChange" :slides-per-view="1" :space-between="50" :effect="'fade'" :modules="modules" class="coffeeSwiper">
+      <swiper @swiper="onSwiper" @slide-change="onSlideChange" :slides-per-view="1" :space-between="50" :allow-touch-move="false" :effect="'fade'" :modules="modules" class="coffeeSwiper">
         <!-- Slide 1 -->
         <swiper-slide>
           <SlideOne :key="restartKey" @finished="onSlideOneFinished" @next="gotoNext" />
