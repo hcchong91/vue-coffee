@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.step-container .description {
+    padding: 10px;
+    background-color: #79503c;
+    color: #fff;
+}
+
+.step-container {
+    text-align: center;
+    background-color: #fff;
+}
